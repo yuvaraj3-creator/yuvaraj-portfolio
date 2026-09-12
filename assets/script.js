@@ -1,0 +1,1 @@
+document.querySelectorAll('.menu').forEach(b=>b.addEventListener('click',()=>document.querySelector('.links').classList.toggle('open')));document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.links').classList.remove('open')));
